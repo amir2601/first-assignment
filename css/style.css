@@ -67,7 +67,26 @@ header {
     padding-bottom: 10px;
 }
 
-/* My Plan Story */
+/* My Hobby Style */
+
+.my-hobby {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.hobby-title {
+    margin: 15px 0;
+}
+.hobby-box img {
+    height: 75px;
+}
+.hobby-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+
+/* My Plan Style */
 
 .my-plan {
     text-align: center;
@@ -76,7 +95,7 @@ header {
     margin: 15px 0;
 }
 .plan-box img {
-    height: px;
+    height: 75px;
 }
 .plan-container {
     display: flex;
