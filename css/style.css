@@ -1,0 +1,159 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+header {
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.top-banner {
+    text-align: right;
+    width: 450px;
+    padding: 216px 230px 364px 750px;
+}
+.primary-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+.primary-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    padding: 24px 0 32px 0;
+}
+.primary-btn {
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #F15B22;
+
+}
+
+/* My Failure Story Style */
+.my-story {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.story-img {
+    width: 50%;
+}
+.story-img img {
+    height: 600px;
+    width: 460px;
+    padding: 130px 50px 130px 200px;
+}
+.story-text {
+    width: 50%;
+    padding: 300px 180px 210px 50px;
+}
+.secondary-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.secondary-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 24px;
+}
+.list {
+    padding-bottom: 10px;
+}
+
+/* My Plan Story */
+
+.my-plan {
+    text-align: center;
+}
+.plan-title {
+    margin: 15px 0;
+}
+.plan-box img {
+    height: px;
+}
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+
+/* Keep Positive Banner Style */
+
+.keep-positive {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 250px;
+    margin: 130px 200px;
+}
+.positive-box-text{
+    padding: 50px 400px 50px 64px;
+}
+.third-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+.secondary-btn {
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: white;
+}
+/* Footer Style */
+.footer-content {
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+.future {
+    width: 50%;
+    padding: 130px 0 130px 200px;
+}
+.future a {
+    padding-right: 10px;
+    text-decoration: none;
+}
+.subscribe {
+    width: 50%;
+    padding: 130px 200px 130px 300px;
+}
+.footer-description {
+    color: white;
+    margin-bottom: 24px;
+}
+.subscribe h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.email-box {
+    padding: 15px 150px 15px 15px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+}
+.footer-text {
+    background-color: black;
+}
+.footer-text p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+}
